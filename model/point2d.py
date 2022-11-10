@@ -3,6 +3,15 @@ import math
 
 
 class Point2D:
+    # вызывается мелод класса
+    @classmethod
+    def just_do_it(cls):
+        pass
+
+    @staticmethod  # статические методы
+    def sum(a, b):
+        return a + b
+
     def __init__(self, x=0, y=0):
         self._x = x
         self._y = y
